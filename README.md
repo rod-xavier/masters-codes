@@ -10,3 +10,5 @@ As of the present moment, the codes can be summarized as it follows:
 exploratory_analysis: this code uses data collected by surface weather stations, deals with outliers and plots information regarding the temperature, precipitation and global radiation annual cycles in 4 different locations.
 
 optical_flow: this code uses as input NetCDF files of Goes-16 satellite imagery (visible channel), and the outputs are forecasted images with optical flow and the goodness of fit os said forecasts, using the Constanza (1989) method.
+
+clear_sky: this code uses as input NetCDF files of Goes-16 satellite imagery, a certain year and a list of months and locations of interest. The output consists of composite clear sky images, with the purpose of producing a clear sky day cycle of the desired locations.
